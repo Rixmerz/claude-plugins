@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rixmerz",
+  "description": "Rixmerz Claude Code marketplace — owner namespace hosting the livespec and vise plugins. Each plugin lives in its own repository; this repo only indexes them.",
+  "owner": {
+    "name": "Juan Pablo Diaz",
+    "email": "juanpablo516@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "livespec",
+      "description": "Code intelligence + Spec traceability: livespec MCP server, specialized subagent, and preloaded Skill.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rixmerz/livespec.git",
+        "path": "plugin"
+      }
+    },
+    {
+      "name": "vise",
+      "description": "Phase-gated workflow enforcer, cross-project experience memory, and git snapshots for Claude Code",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/vise"
+      }
+    }
+  ]
+}
