@@ -20,8 +20,9 @@
       "name": "mini-vise",
       "description": "Spec-first pipeline \u2014 you write the proposal, three subagents walk it: dev, qa, review",
       "source": {
-        "source": "git",
-        "url": "https://github.com/Rixmerz/mini-vise.git"
+        "source": "git-subdir",
+        "url": "https://github.com/Rixmerz/mini-vise.git",
+        "path": "."
       }
     },
     {
