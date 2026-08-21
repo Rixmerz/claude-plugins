@@ -22,7 +22,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/Rixmerz/mini-vise.git",
-        "path": "."
+        "path": "plugin"
       }
     },
     {
