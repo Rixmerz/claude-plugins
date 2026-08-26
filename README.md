@@ -8,6 +8,7 @@ repository.
 
 ```sh
 claude plugin marketplace add Rixmerz/claude-plugins
+claude plugin install flowtrace@rixmerz
 claude plugin install livespec@rixmerz
 claude plugin install vise@rixmerz
 ```
@@ -18,7 +19,7 @@ Restart Claude Code afterwards.
 
 ```sh
 claude plugin marketplace update rixmerz   # re-read this index
-claude plugin update livespec              # or: vise
+claude plugin update livespec              # or: flowtrace, mini-vise, vise
 ```
 
 A plugin update requires restarting Claude Code to take effect.
@@ -27,7 +28,9 @@ A plugin update requires restarting Claude Code to take effect.
 
 | Plugin | Source | What it does |
 |---|---|---|
+| `flowtrace` | [Rixmerz/flowtrace-debugger](https://github.com/Rixmerz/flowtrace-debugger) (`plugin/`) | Runtime tracing for Java, Python, Node and TypeScript; analyzes `flowtrace.jsonl` |
 | `livespec` | [Rixmerz/livespec](https://github.com/Rixmerz/livespec) (`plugin/`) | Code intelligence + Spec traceability: MCP server, subagent, Skill |
+| `mini-vise` | [Rixmerz/mini-vise](https://github.com/Rixmerz/mini-vise) (`plugin/`) | Spec-first pipeline: dev, qa, review subagents walk your proposal |
 | `vise` | [Rixmerz/vise](https://github.com/Rixmerz/vise) | Phase-gated workflows, cross-project experience memory, git snapshots |
 
 ## Why a separate repo

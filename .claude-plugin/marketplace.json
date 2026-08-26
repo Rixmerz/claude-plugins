@@ -1,12 +1,21 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rixmerz",
-  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the livespec, vise and mini-vise plugins. Each plugin lives in its own repository; this repo only indexes them.",
+  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise and mini-vise plugins. Each plugin lives in its own repository; this repo only indexes them.",
   "owner": {
     "name": "Juan Pablo Diaz",
     "email": "juanpablo516@gmail.com"
   },
   "plugins": [
+    {
+      "name": "flowtrace",
+      "description": "Runtime tracing for AI-assisted debugging: instruments Java, Python, Node and TypeScript without touching the source, then reads flowtrace.jsonl.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rixmerz/flowtrace-debugger.git",
+        "path": "plugin"
+      }
+    },
     {
       "name": "livespec",
       "description": "Code intelligence + Spec traceability: livespec MCP server, specialized subagent, and preloaded Skill.",
