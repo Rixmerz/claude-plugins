@@ -41,6 +41,14 @@
         "source": "github",
         "repo": "Rixmerz/vise"
       }
+    },
+    {
+      "name": "eyes",
+      "description": "Temporary visual eyes for agents on Hyprland/Wayland — capture monitors, windows, or regions and see the result inline as a PNG for QA.",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/eyes-mcp"
+      }
     }
   ]
 }
