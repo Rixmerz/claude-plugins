@@ -57,6 +57,14 @@
         "source": "github",
         "repo": "Rixmerz/dwg-engine"
       }
+    },
+    {
+      "name": "layout-inspector",
+      "description": "Spatial inspection of rendered web pages: finds overlapping components, off-screen clipping, truncated text and z-index conflicts by measuring the real layout in a headless browser, not by eyeballing screenshots.",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/layout-inspector-mcp"
+      }
     }
   ]
 }
