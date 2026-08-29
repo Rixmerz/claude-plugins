@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rixmerz",
-  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise and mini-vise plugins. Each plugin lives in its own repository; this repo only indexes them.",
+  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes and dwg-engine plugins. Each plugin lives in its own repository; this repo only indexes them.",
   "owner": {
     "name": "Juan Pablo Diaz",
     "email": "juanpablo516@gmail.com"
@@ -44,10 +44,18 @@
     },
     {
       "name": "eyes",
-      "description": "Temporary visual eyes for agents on Hyprland/Wayland — capture monitors, windows, or regions and see the result inline as a PNG for QA.",
+      "description": "Temporary visual eyes for agents on Hyprland/Wayland \u2014 capture monitors, windows, or regions and see the result inline as a PNG for QA.",
       "source": {
         "source": "github",
         "repo": "Rixmerz/eyes-mcp"
+      }
+    },
+    {
+      "name": "dwg-engine",
+      "description": "Generate real DWG files with no paid CAD \u2014 ezdxf + the free ODA File Converter packaged in Docker, exposed as MCP tools. Host needs only Docker.",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/dwg-engine"
       }
     }
   ]
