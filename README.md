@@ -11,6 +11,7 @@ claude plugin marketplace add Rixmerz/claude-plugins
 claude plugin install flowtrace@rixmerz
 claude plugin install livespec@rixmerz
 claude plugin install vise@rixmerz
+claude plugin install android-layout-inspector@rixmerz
 ```
 
 Restart Claude Code afterwards.
@@ -19,7 +20,7 @@ Restart Claude Code afterwards.
 
 ```sh
 claude plugin marketplace update rixmerz   # re-read this index
-claude plugin update livespec              # or: flowtrace, mini-vise, vise
+claude plugin update livespec              # or any other plugin name below
 ```
 
 A plugin update requires restarting Claude Code to take effect.
@@ -32,6 +33,10 @@ A plugin update requires restarting Claude Code to take effect.
 | `livespec` | [Rixmerz/livespec](https://github.com/Rixmerz/livespec) (`plugin/`) | Code intelligence + Spec traceability: MCP server, subagent, Skill |
 | `mini-vise` | [Rixmerz/mini-vise](https://github.com/Rixmerz/mini-vise) (`plugin/`) | Spec-first pipeline: dev, qa, review subagents walk your proposal |
 | `vise` | [Rixmerz/vise](https://github.com/Rixmerz/vise) | Phase-gated workflows, cross-project experience memory, git snapshots |
+| `eyes` | [Rixmerz/eyes-mcp](https://github.com/Rixmerz/eyes-mcp) | Visual eyes for agents on Hyprland/Wayland: capture monitors, windows or regions inline as PNG |
+| `dwg-engine` | [Rixmerz/dwg-engine](https://github.com/Rixmerz/dwg-engine) | Generate real DWG files with no paid CAD — ezdxf + ODA File Converter in Docker |
+| `layout-inspector` | [Rixmerz/layout-inspector-mcp](https://github.com/Rixmerz/layout-inspector-mcp) | Measures **web page** layout in a headless browser: overlaps, clipping, truncation, z-index |
+| `android-layout-inspector` | [Rixmerz/android-layout-inspector-mcp](https://github.com/Rixmerz/android-layout-inspector-mcp) | Measures a **live Android UI** over adb: overlaps, clipping, sub-48dp touch targets, occluded and unlabeled controls |
 
 ## Why a separate repo
 
