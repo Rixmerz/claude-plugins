@@ -82,6 +82,15 @@
         "url": "https://github.com/Rixmerz/rastro.git",
         "path": "plugin"
       }
+    },
+    {
+      "name": "muscle-memory",
+      "description": "Turns repeated agent behaviour into hooks: observes tool calls, mines the sequences that repeat, and compiles the ones that clear the gates into automation you approved.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rixmerz/muscle-memory.git",
+        "path": "plugin"
+      }
     }
   ]
 }
