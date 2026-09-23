@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rixmerz",
-  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector and android-layout-inspector plugins. Each plugin lives in its own repository; this repo only indexes them.",
+  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector, android-layout-inspector, rastro, muscle-memory and angular-mcp plugins. Each plugin lives in its own repository; this repo only indexes them.",
   "owner": {
     "name": "Juan Pablo Diaz",
     "email": "juanpablo516@gmail.com"
@@ -90,6 +90,14 @@
         "source": "git-subdir",
         "url": "https://github.com/Rixmerz/muscle-memory.git",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "angular-mcp",
+      "description": "The semantic graph of an Angular project \u2014 components, DI, signals, templates, routes, HTTP calls, interceptors and specs \u2014 as MCP query tools, read with the project's own TypeScript and Angular compiler. Nothing to build: the server ships as one bundled file.",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/angular-mcp"
       }
     }
   ]

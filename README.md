@@ -12,6 +12,7 @@ claude plugin install flowtrace@rixmerz
 claude plugin install livespec@rixmerz
 claude plugin install vise@rixmerz
 claude plugin install android-layout-inspector@rixmerz
+claude plugin install angular-mcp@rixmerz
 ```
 
 Restart Claude Code afterwards.
@@ -39,6 +40,7 @@ A plugin update requires restarting Claude Code to take effect.
 | `android-layout-inspector` | [Rixmerz/android-layout-inspector-mcp](https://github.com/Rixmerz/android-layout-inspector-mcp) | Measures a **live Android UI** over adb: overlaps, clipping, sub-48dp touch targets, occluded and unlabeled controls |
 | `rastro` | [Rixmerz/rastro](https://github.com/Rixmerz/rastro) | Browser for AI agents: minimal interactive view (~60 tokens a page), causal action-to-effect trace, investigation on demand |
 | `muscle-memory` | [Rixmerz/muscle-memory](https://github.com/Rixmerz/muscle-memory) (`plugin/`) | Records tool calls where you opted in, mines the sequences that repeat, and compiles the ones that clear the gates into hooks you approved |
+| `angular-mcp` | [Rixmerz/angular-mcp](https://github.com/Rixmerz/angular-mcp) | The semantic graph of an **Angular** project as query tools: components, DI, signals, routes, HTTP calls, impact analysis and architecture rules |
 
 ## Why a separate repo
 
