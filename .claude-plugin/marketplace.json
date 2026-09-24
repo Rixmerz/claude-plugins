@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rixmerz",
-  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector, android-layout-inspector, rastro, muscle-memory and angular-mcp plugins. Each plugin lives in its own repository; this repo only indexes them.",
+  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector, android-layout-inspector, rastro, muscle-memory, angular-mcp and tasky plugins. Each plugin lives in its own repository; this repo only indexes them.",
   "owner": {
     "name": "Juan Pablo Diaz",
     "email": "juanpablo516@gmail.com"
@@ -98,6 +98,14 @@
       "source": {
         "source": "github",
         "repo": "Rixmerz/angular-mcp"
+      }
+    },
+    {
+      "name": "tasky",
+      "description": "Visual task ledger for Claude Code: records prompts, delegated subagents and results through hooks at zero token cost, with a zero-token chat queue, parallel headless workers and a local dashboard.",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/tasky"
       }
     }
   ]
