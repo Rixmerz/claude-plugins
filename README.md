@@ -41,6 +41,7 @@ A plugin update requires restarting Claude Code to take effect.
 | `rastro` | [Rixmerz/rastro](https://github.com/Rixmerz/rastro) | Browser for AI agents: minimal interactive view (~60 tokens a page), causal action-to-effect trace, investigation on demand |
 | `muscle-memory` | [Rixmerz/muscle-memory](https://github.com/Rixmerz/muscle-memory) (`plugin/`) | Records tool calls where you opted in, mines the sequences that repeat, and compiles the ones that clear the gates into hooks you approved |
 | `angular-mcp` | [Rixmerz/angular-mcp](https://github.com/Rixmerz/angular-mcp) | The semantic graph of an **Angular** project as query tools: components, DI, signals, routes, HTTP calls, impact analysis and architecture rules |
+| `tasky` | [Rixmerz/tasky](https://github.com/Rixmerz/tasky) | Visual task ledger fed by hooks at zero token cost: prompts, subagents and results, chat queue, headless workers and a local dashboard |
 
 ## Why a separate repo
 
