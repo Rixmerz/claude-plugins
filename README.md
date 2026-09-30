@@ -42,6 +42,7 @@ A plugin update requires restarting Claude Code to take effect.
 | `muscle-memory` | [Rixmerz/muscle-memory](https://github.com/Rixmerz/muscle-memory) (`plugin/`) | Records tool calls where you opted in, mines the sequences that repeat, and compiles the ones that clear the gates into hooks you approved |
 | `angular-mcp` | [Rixmerz/angular-mcp](https://github.com/Rixmerz/angular-mcp) | The semantic graph of an **Angular** project as query tools: components, DI, signals, routes, HTTP calls, impact analysis and architecture rules |
 | `tasky` | [Rixmerz/tasky](https://github.com/Rixmerz/tasky) | Visual task ledger fed by hooks at zero token cost: prompts, subagents and results, chat queue, headless workers and a local dashboard |
+| `hide` | [Rixmerz/hide](https://github.com/Rixmerz/hide) | Keeps secrets out of the model's context: API keys in prompts are blocked, named in a side terminal, stored in the OS keychain and used by name through `hide exec` |
 
 ## Why a separate repo
 
