@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rixmerz",
-  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector, android-layout-inspector, rastro, muscle-memory, angular-mcp, tasky and hide plugins. Each plugin lives in its own repository; this repo only indexes them.",
+  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector, android-layout-inspector, rastro, muscle-memory, angular-mcp, tasky, hide and cauce plugins. Each plugin lives in its own repository; this repo only indexes them.",
   "owner": {
     "name": "Juan Pablo Diaz",
     "email": "juanpablo516@gmail.com"
@@ -115,6 +115,14 @@
         "source": "git-subdir",
         "url": "https://github.com/Rixmerz/hide.git",
         "path": "plugin"
+      }
+    },
+    {
+      "name": "cauce",
+      "description": "One core for Claude Code: routes each task to the right model, effort and capabilities, escalates on evidence, and remembers what failed across repositories.",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/cauce"
       }
     }
   ]
