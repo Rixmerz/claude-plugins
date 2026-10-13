@@ -44,6 +44,8 @@ A plugin update requires restarting Claude Code to take effect.
 | `tasky` | [Rixmerz/tasky](https://github.com/Rixmerz/tasky) | Visual task ledger fed by hooks at zero token cost: prompts, subagents and results, chat queue, headless workers and a local dashboard |
 | `hide` | [Rixmerz/hide](https://github.com/Rixmerz/hide) | Keeps secrets out of the model's context: API keys in prompts are blocked, named in a side terminal, stored in the OS keychain and used by name through `hide exec` |
 | `cauce` | [Rixmerz/cauce](https://github.com/Rixmerz/cauce) | One core that routes each task to a model × effort cell, runs it as a one-shot worker, escalates on evidence, and remembers what failed across repositories; livespec built in, local board UI |
+| `tanka` | [Rixmerz/tanka](https://github.com/Rixmerz/tanka) (`plugin/`) | Harness that turns Haiku into a personal assistant you can delegate to: per-class MCP tool policy, confirm-before-send, loop guard, objectives with done-criteria |
+| `tanka-link` | [Rixmerz/tanka](https://github.com/Rixmerz/tanka) (`link/`) | Registers every Claude Code session with your local Tanka so it can send a prompt into one |
 
 ## Why a separate repo
 
