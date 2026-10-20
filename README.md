@@ -47,6 +47,7 @@ A plugin update requires restarting Claude Code to take effect.
 | `tanka` | [Rixmerz/tanka](https://github.com/Rixmerz/tanka) (`plugin/`) | Harness that turns Haiku into a personal assistant you can delegate to: per-class MCP tool policy, confirm-before-send, loop guard, objectives with done-criteria |
 | `tanka-link` | [Rixmerz/tanka](https://github.com/Rixmerz/tanka) (`link/`) | Registers every Claude Code session with your local Tanka so it can send a prompt into one |
 | `fresh-dev` | [Rixmerz/fresh-dev](https://github.com/Rixmerz/fresh-dev) | Deno Fresh specialist: semantic MCP over routes, islands and server/client boundaries, Fresh skills, structural validator, hooks and deno lsp wiring |
+| `gmail-reader` | [Rixmerz/gmail-reader-mcp](https://github.com/Rixmerz/gmail-reader-mcp) | **Read-only Gmail**: sign in once by hand, then list, search and read whole conversations with their attachments headless; nothing can be sent, deleted or marked as read |
 
 ## Why a separate repo
 
