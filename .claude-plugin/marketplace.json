@@ -153,7 +153,7 @@
     },
     {
       "name": "gmail-reader",
-      "description": "Read-only Gmail for Claude: sign in once in a normal browser window, then list, search and read whole conversations with their attachments headless through the same profile. Nothing can be sent, deleted or marked as read. Python standard library only; macOS, Windows and Linux.",
+      "description": "Read-only Gmail for Claude: sign in once in a normal browser window, then list, search and read whole conversations with their attachments headless through the same profile. Nothing can be sent or deleted; marking what it reads as read is an option you turn on. Python standard library only; macOS, Windows and Linux.",
       "source": {
         "source": "github",
         "repo": "Rixmerz/gmail-reader-mcp"
