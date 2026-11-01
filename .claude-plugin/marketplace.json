@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rixmerz",
-  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector, android-layout-inspector, rastro, muscle-memory, angular-mcp, tasky, hide, locks, tanka, tanka-link, fresh-dev, gmail-reader and tracer plugins. Each plugin lives in its own repository; this repo only indexes them.",
+  "description": "Rixmerz Claude Code marketplace \u2014 owner namespace hosting the flowtrace, livespec, vise, mini-vise, eyes, dwg-engine, layout-inspector, android-layout-inspector, rastro, muscle-memory, angular-mcp, tasky, hide, locks, tanka, tanka-link, fresh-dev, hono-dev, gmail-reader and tracer plugins. Each plugin lives in its own repository; this repo only indexes them.",
   "owner": {
     "name": "Juan Pablo Diaz",
     "email": "juanpablo516@gmail.com"
@@ -149,6 +149,14 @@
       "source": {
         "source": "github",
         "repo": "Rixmerz/fresh-dev"
+      }
+    },
+    {
+      "name": "hono-dev",
+      "description": "Hono 4.x specialist: read-only semantic MCP (routes with full composed paths across app.route mounts, middleware chains, validators, RPC types, request tracing, impact, livespec graph export), 36 lint rules with a headless CLI for CI, Hono skills and hooks.",
+      "source": {
+        "source": "github",
+        "repo": "Rixmerz/hono-dev"
       }
     },
     {
