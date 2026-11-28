@@ -191,6 +191,15 @@
         "source": "github",
         "repo": "Rixmerz/hook-n-hooks"
       }
+    },
+    {
+      "name": "delta-cube",
+      "description": "Structural code analysis for AI agents: hotspots, did-this-change-make-it-worse review, clones, cycles and debt, via the delta-cube MCP server and a skill.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Rixmerz/delta-cube.git",
+        "path": "plugin"
+      }
     }
   ]
 }
